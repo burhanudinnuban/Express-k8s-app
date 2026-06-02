@@ -6,7 +6,7 @@ const VERSION = '1.0.0';
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Kubernetes! im ready to explore more!!! give me moreeeeeee',
+    message: 'Hello from Kubernetes! im ready to explore more!!! give me moreeeeeee!!!!',
     version: VERSION,
     timestamp: new Date().toISOString()
   });
